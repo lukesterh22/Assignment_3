@@ -1,0 +1,5 @@
+Memo
+The Node.py file defines the Node class
+which is used in for both stacks and queues. This setup is important because both the stack and queue use nodes to connect items together. Using a node class makes adding and removing items easy and fast.
+The stack_undo_redo.py uses two different stacks. One for the undo and one for the redo. A stack works like a pile of plates, the last one put on the stack, is the first one taken off (LIFO). If you undo something, it pops off the undo stack and moves to the redo stack. If you redo it goes back to undo. This makes it easy to go back and fourth between steps.
+The queue_help_desk file is a queue that handles customers for waiting in line. A queue works like a line in a store, the first in first out(FIFO). When a item is added it is put in the back of the line (enqueue). When it is the items tern theu will come out from the front (dequeue). A resturant would use this to make sure whoever ordered first gets there food first.

@@ -1,3 +1,10 @@
-# Implement your Node class here
+# node.py
+
 class Node:
-    pass # delete this line
+
+    def __init__(self, value):
+        self.value = value
+        self.next = None
+
+    def __str__(self):
+        return str(self.value)
